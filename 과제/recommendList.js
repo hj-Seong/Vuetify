@@ -3,7 +3,6 @@ Vue.component('recommend-list',{
     template : 
     `
     <div>
-    <v-container>
         <!-- 뷰티파이 카드 디자인 위에 리스트 추가 -->
         <v-card>
             <v-slide-x-transition group>
@@ -16,7 +15,6 @@ Vue.component('recommend-list',{
                 <!-- 리스트아이템을 이용한 추천코멘트 반복 끝-->
             </v-slide-x-transition>
         </v-card>
-    </v-container>
     </div>
     `,
     data : function (){
